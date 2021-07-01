@@ -1,9 +1,12 @@
 print("What is your name Human?")
-name = input (Prins)
+name = input ()
 print("How old are you(in years)?")
-whole_number = int(input (36))
+#when you use input the defaul data type is a string and needs to be transformed into a number 
+age = int(input ())
 print("How tall are you (in meters)?")
-decimal_number = float(input(1.80))
+#for numbers with a decimal number you use float
+height = float(input())
 print("How much do you weight (in Kilograms)?")
-whole_number = int(input(85))
-name = input ( Prins )
+weight = float(input())
+bmi = weight/(height **2)
+print("{} you are {}years old and your bmi is {}".format(name,age,bmi))
